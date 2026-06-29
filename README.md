@@ -27,13 +27,6 @@ HostelCare is a full-stack hostel maintenance platform for reporting, triaging, 
 
 ## Screenshots
 
-Add screenshots before publishing the repository:
-
-- Home and role selection
-- Student complaint dashboard
-- Admin complaint triage dashboard
-- Worker task dashboard
-- Notification center
 
 ## Installation
 
