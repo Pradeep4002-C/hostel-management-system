@@ -1,0 +1,31 @@
+{
+  "name": "hostelcare-api",
+  "version": "1.0.0",
+  "description": "Secure API for HostelCare complaint and maintenance workflows",
+  "license": "MIT",
+  "author": "Pradeep Chavan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node -e \"import('./src/app.js')\"",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  src/index.js",
+    "db:audit": "node src/scripts/auditDatabase.mjs",
+    "db:cleanup": "node src/scripts/cleanupDatabase.mjs",
+    "ml:evaluate": "node src/ml/evaluation/evaluateComplaintMl.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.10.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3",
+    "multer": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

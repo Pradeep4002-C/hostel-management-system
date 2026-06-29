@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="HostelCare">
+  <rect width="64" height="64" rx="16" fill="#0f172a"/>
+  <path d="M16 52V19l16-8 16 8v33H16Z" fill="#fff"/>
+  <path d="M24 24h6v7h-6zm10 0h6v7h-6zM24 35h6v7h-6zm10 0h6v7h-6z" fill="#2563eb"/>
+  <path d="M29 45h6v7h-6z" fill="#0f172a"/>
+</svg>
